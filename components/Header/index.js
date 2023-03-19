@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {  useState, useEffect  } from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Button } from 'antd';
 import Link from 'next/link';
@@ -16,17 +16,26 @@ export default function Header() {
 
     const t = locale === 'en' ? en : tr;
 
+    const [defaultLang, setDefaultLang] = useState(null);
 
+    useEffect(()=>{
+      if (typeof window !== 'undefined') {
+        localStorage.getItem('language') === '' && localStorage.setItem('language', defaultLocale);
+        setDefaultLang(localStorage.getItem('language'));
+      }
+    },[]);
+  
     const onClickLogo = () => {
       Router.push('/');
     };
 
     const changeLanguage = e => {
-
       const locale = e;
+      localStorage.setItem('language', locale);
       routerTemp.push('/','/',{locale});
 
-    }
+    };
+
 
     return (
       <Header style={{background: 'linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%)', display: 'flex', flexDirection: 'row', position: 'fixed', zIndex: 9, width: '100%'}}>
@@ -56,9 +65,10 @@ export default function Header() {
 
       </Menu>
 
-      <Select 
+      {defaultLang &&
+       <Select 
       className='select-box-langugage' 
-      defaultValue={defaultLocale} 
+      defaultValue={defaultLang} 
       onChange={changeLanguage}
       options={
         [
@@ -67,6 +77,7 @@ export default function Header() {
         ]
       } 
       />
+    }
       </Header>
 
     );
