@@ -20,8 +20,8 @@ export default function Header() {
 
     useEffect(()=>{
       if (typeof window !== 'undefined') {
-        localStorage.getItem('language') === '' && localStorage.setItem('language', defaultLocale);
-        setDefaultLang(localStorage.getItem('language'));
+        localStorage.getItem('languagePetraHair')=== null && localStorage.setItem('languagePetraHair', defaultLocale);
+        setDefaultLang(localStorage.getItem('languagePetraHair'));
       }
     },[]);
   
@@ -31,7 +31,7 @@ export default function Header() {
 
     const changeLanguage = e => {
       const locale = e;
-      localStorage.setItem('language', locale);
+      localStorage.setItem('languagePetraHair', locale);
       routerTemp.push('/','/',{locale});
 
     };
