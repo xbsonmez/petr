@@ -21,6 +21,7 @@
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
   );
+  
 
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
@@ -38,6 +39,11 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --customTema: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%);
+  --white: #ffffff;
+  --yellow: #fccb6b;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -94,10 +100,114 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: var(--yellow) !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item a {
+  color: var(--white) !important;
+}
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.ant-btn-primary {
+  color: var(--yellow) !important;
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
+  min-width: 280px;
+  width:100%;
+  background-color: var(--customTema);
+}
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item, .ant-menu-dark.ant-menu-horizontal > .ant-menu-submenu {
+  padding: 0 10px !important;
+}
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  background-color: var(--yellow) !important;
+  color: var(--white) !important;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent !important;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  background-color: var(--customTema) !important;
+}
+.ant-carousel .slick-dots li {
+  background-color: whitesmoke !important;
+  height: 10px !important;
+}
+.ant-carousel .slick-dots li{
+  width: 70px !important;
+}
+
+.ant-carousel .slick-dots li.slick-active {
+  width: 70px !important; 
+}
+.ant-carousel .slick-dots li.slick-active button {
+  height: 10px !important;
+}
+.ant-carousel .slick-dots li button {
+  height: 10px !important;
+  background-color: #d66c0b !important;
+}
+
+.logo {
+  background-color: transparent;
+  color: #fff;
+  margin-right: 10px;
+  display: inline-flex;
+  font-family: auto;
+  position: relative;
+  left: -30px;
+  width: 550px;
+  cursor: pointer;
+}
+
+.logo a {
+    padding-left: 12px;
+    font-size: 20px;
+    font-family: auto;
+    min-width: 200px;
+    color: whitesmoke;
+}
+
+.logo a:hover {
+  color: whitesmoke;
+}
+
+.logo .image {
+  margin-top: 5px;
+  margin-right: 10px;
+  padding-right: 10px;
+  height: 50px;
+  border-right: 3px solid var(--yellow);
+  min-width: 80px;
+}
+
+.select-box-langugage {
+  background-color: transparent;
+  border: none;
+}
+
+.select-box-langugage::selection{
+  background: transparent !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: transparent !important;
+  border: none !important;
+  width: 68px !important;
+  height: 51px !important;
+  padding-top: 16px !important;
+  color: whitesmoke !important;
+}
+span.ant-select-arrow {
+  color: whitesmoke !important;
 }
 
 @media (prefers-color-scheme: dark) {
