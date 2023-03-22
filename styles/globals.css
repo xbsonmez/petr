@@ -183,7 +183,15 @@ ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
 .whatsapp {
   position: fixed;
   z-index: 10;
-  bottom: 40px;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 20px;
+}
+
+.instagram {
+  position: fixed;
+  z-index: 10;
+  bottom: 60px;
   right: 10px;
   border-radius: 20px;
 }

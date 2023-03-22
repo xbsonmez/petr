@@ -4,6 +4,7 @@ import Header from '../Header';
 import Whatsapp from '../Whatsapp';
 import Sider from '../Sider';
 import React, { useState } from 'react';
+import Instagram from '../Instagram';
 
 
 const CustomLayout = ({children}) =>{
@@ -19,6 +20,7 @@ const CustomLayout = ({children}) =>{
           <Sider isOpen={isOpen} changeStatus={changeStatus}/>
           {children}
           <Whatsapp />
+          <Instagram />
         </Layout>
   );
 }
