@@ -218,8 +218,66 @@ span.ant-select-arrow {
   color: whitesmoke !important;
 }
 
+span.anticon.anticon-menu.sider-toggler {
+  display: none;
+  color: whitesmoke;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  span.anticon.anticon-menu.sider-toggler {
+    display: inline-flex;
+    color: whitesmoke;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .sider {
+    width: 65%;
+    height: 100vh;
+    background: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%);
+    color: whitesmoke;
+    opacity: 1;
+    z-index: 10;
+    position: fixed;
+    transform: translateX(0%);
+    transition: transform .5s;
+    font-size: 14px;
+  }
+
+  .sider-opened {
+    transform: translateX(100%);
+    width: 0;
+    height: 0;
+  }
+
+  .siderMenu {
+    margin-top: 45px;
+  }
+
+  .anticon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .siderButton {
+    position: absolute;
+    right: 20px;
+  }
+
+  .logo a {
+    display: none;
+  }
+
+  ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
+    display: none;
   }
 }

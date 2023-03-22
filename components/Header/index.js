@@ -7,9 +7,10 @@ import Router, {useRouter} from 'next/router';
 import tr from '@/statics/localization/tr';
 import en from '@/statics/localization/en';
 import { Select } from 'antd';
+import { MenuOutlined } from '@ant-design/icons';
 
 
-export default function Header() {
+export default function Header(prop) {
     const { Header } = Layout;
     const routerTemp = useRouter();
     const {locale, locales, defaultLocale} = routerTemp;
@@ -37,13 +38,15 @@ export default function Header() {
     };
 
 
+
+
     return (
       <Header style={{background: 'linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%)', display: 'flex', flexDirection: 'row', position: 'fixed', zIndex: 9, width: '100%'}}>
         <div className="logo">  
-        <div className="image" onClick={onClickLogo} >
+        <div className="image" onClick={()=>{onClickLogo()}} >
         <img src="/vektor2-removebg.png" style={{width:120, height:60}}/>
          </div>
-            <Link href="/">{'Petra Hair Transplant'}</Link>
+            <Link className='logoTitle' href="/">{'Petra Hair Transplant'}</Link>
         </div> 
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
 
@@ -64,7 +67,7 @@ export default function Header() {
         </Menu.Item>
 
       </Menu>
-
+     
       {defaultLang &&
        <Select 
       className='select-box-langugage' 
@@ -78,6 +81,10 @@ export default function Header() {
       } 
       />
     }
+     <div className='siderButton'>
+      <MenuOutlined className='sider-toggler' onClick={()=>{prop?.changeStatus()}}/>
+      </div>
+
       </Header>
 
     );

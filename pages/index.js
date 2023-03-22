@@ -26,19 +26,19 @@ export default function Home() {
       <main className={styles.main}>
 
         <div className={styles.description}>
-          <img src="/test1.jpeg" style={{width:'auto', height:400}}/>
-          <div style={{marginLeft:40}}>
-            <h2>{t.tranplantTitle}</h2>
+          <img className={styles.homeBanner} src="/test1.jpeg" />
+          <div className={styles.homeBannerText}>
+            <h2 style={{textAlign:'center'}}>{t.tranplantTitle}</h2>
             <p>{t.transplantContent}</p>
           </div>
         </div>
 
         <div className={styles.description}>
-        <div>
-            <h3>{t.transplantInfo}</h3>
+        <div style={{marginBottom:'10px'}}>
+            <h3  style={{textAlign:'center'}}>{t.transplantInfo}</h3>
             <p>{t.transplantInfoContent}</p>
           </div>
-          <img src="/vektor1.png" style={{width:'auto', height:400, marginLeft:40}}/>
+          <img className={styles.homeBanner2} src="/vektor1.png" />
         </div>
        
          
