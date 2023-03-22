@@ -20,7 +20,7 @@ export default function About() {
     <div className={styles.main}> 
                 <h2><b>{t.about}</b></h2>
                 {t.aboutContent}
-                <img src="/vektor2.png" style={{width:'500px'}}/>
+                <img src="/vektor2.png" style={{width:'500px', padding:20}}/>
     </div>
     </Fragment>
     );

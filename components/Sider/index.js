@@ -38,7 +38,7 @@ export default function Sider(prop) {
 
         <Menu.Item key="1">
           <div className="header-item">
-          <Button type="primary" className="button-primary">
+          <Button type="primary" className="button-primary" onClick={()=> { prop.changeStatus()}}>
             <Link href="/before-after">{t.beforeAfter}</Link>
           </Button>
         </div>
@@ -46,7 +46,7 @@ export default function Sider(prop) {
 
         <Menu.Item key="2">
           <div className="header-item">
-          <Button type="primary" className="button-primary">
+          <Button type="primary" className="button-primary" onClick={()=> { prop.changeStatus()}}>
             <Link href="/about">{t.aboutUs}</Link>
           </Button>
         </div>
