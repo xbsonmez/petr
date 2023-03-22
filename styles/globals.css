@@ -216,6 +216,8 @@ ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
 }
 span.ant-select-arrow {
   color: whitesmoke !important;
+  width: 14px !important;
+  height: 14px !important;
 }
 
 span.anticon.anticon-menu.sider-toggler {

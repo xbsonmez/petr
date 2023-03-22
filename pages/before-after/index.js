@@ -21,8 +21,8 @@ export default function BeforeAfter() {
     <h2> <b>{t.beforeAfter}</b></h2>
     <div className={styles.description}>
    <div>
-     <img src="/test1.jpeg" style={{ height:300, marginRight:55}}/>
-      <img src="/test2.jpeg" style={{ height:300, marginLeft:55}}/>
+     <img className={styles.beforeAfterBanner} src="/test1.jpeg" />
+      <img className={styles.beforeAfterBanner} src="/test2.jpeg"/>
    </div>
 
     </div>

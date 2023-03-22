@@ -11,7 +11,6 @@ const CustomLayout = ({children}) =>{
   const [isOpen, setOpen] = useState(false);
 
   const changeStatus = () =>{
-    debugger;
     setOpen(!isOpen);
   };
     return (

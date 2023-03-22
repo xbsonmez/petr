@@ -21,7 +21,7 @@ export default function Sider(prop) {
             prop.changeStatus();
           }
         };
-        document.addEventListener("mousedown", handleClickOutside);
+        document.addEventListener("mousedown", handleClickOutside, true);
         return () => {
             document.removeEventListener('click', handleClickOutside, true);
           };
