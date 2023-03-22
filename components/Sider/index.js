@@ -17,7 +17,7 @@ export default function Sider(prop) {
 
     useEffect(() => {
         const handleClickOutside = (event) => {
-          if (ref.current && !ref?.current?.contains(event.target)) {
+          if (prop?.isOpen && ref.current && !ref?.current?.contains(event.target)) {
             prop.changeStatus();
           }
         };
