@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import {useRouter} from 'next/router';
 import tr from '@/statics/localization/tr';
 import en from '@/statics/localization/en';
+import SendInfoMail from '@/components/SendInfoMail';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -30,6 +31,15 @@ export default function Home() {
           <div className={styles.homeBannerText}>
             <h2 style={{textAlign:'center'}}>{t.tranplantTitle}</h2>
             <p>{t.transplantContent}</p>
+          </div>
+        </div>
+        
+        <div className={styles.contactWithUs}>
+          <div style={{width:'100%', display:'flex', justifyContent:'center', marginBottom:10, fontSize:35, textAlign:'center'}}>
+         {t.contactWithUs}
+          </div>
+          <div  style={{width:'100%', display:'flex', justifyContent:'center'}} > 
+          <SendInfoMail t={t}/>
           </div>
         </div>
 

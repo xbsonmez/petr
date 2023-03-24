@@ -127,6 +127,18 @@
   transform: translateZ(0);
 }
 
+.contactWithUs {
+  width:100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10;
+  background: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%);
+  color: whitesmoke;
+  padding: 20px;
+}
+
 .logo,
 .thirteen {
   position: relative;

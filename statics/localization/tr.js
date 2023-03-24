@@ -14,5 +14,8 @@ export default {
     *FUE
     *SAFİR FUE
     *DHI`,
-    
+    fullName:'Adınız Ve Soyadınız',
+    phoneNumber:'Telefon Numaranız',
+    emptyError:'Bu alan boş olamaz.',
+    contactWithUs: 'Bizimle İletişime Geçin!',
 };

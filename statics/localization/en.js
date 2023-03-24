@@ -14,4 +14,9 @@ export default  {
     *FUE
     *SAPPHIRE FUE
     *DHI`,
+    fullName:'Full Name',
+    phoneNumber:'Phone Number',
+    emptyError:'Can not be empty.',
+    contactWithUs: 'Contact With Us!',
+    
 };
