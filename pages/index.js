@@ -21,7 +21,7 @@ export default function Home() {
       <Head>
         <title>Petra Hair Transplant</title>
         <meta name="description" content="Petra Hair Transplant, Saç Ekiminde Bir Numara. Petra Saç Ekimi " />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>

@@ -73,7 +73,6 @@ export default function Header(prop) {
       className='select-box-langugage' 
       autoFocus={false}
       bordered={false}
-      dropdownMatchSelectWidth={false}
       defaultValue={defaultLang} 
       onChange={changeLanguage}
       options={
