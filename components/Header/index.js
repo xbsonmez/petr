@@ -71,6 +71,8 @@ export default function Header(prop) {
       {defaultLang &&
        <Select 
       className='select-box-langugage' 
+      autoFocus={false}
+      bordered={false}
       defaultValue={defaultLang} 
       onChange={changeLanguage}
       options={
