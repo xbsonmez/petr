@@ -201,6 +201,36 @@ ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
   color: whitesmoke;
 }
 
+.opacity-bg {
+  position: absolute;
+  width: 100%;
+  height: 595px;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  background: #252b3a;
+  z-index: 1;
+  width: 99%;
+  margin: 10px;
+}
+
+.contentCarusel {
+  background-image: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%);
+  background-position: center center;
+}
+
+.imageBanner {
+  color: '#fff';
+  text-align: 'center';
+  background:'#364d79';
+  position:relative;
+  display: block;
+  width:'100%';
+  height: 800px;
+}
+img.imageSlider {
+  height: auto !important;
+}
 .whatsapp {
   position: fixed;
   z-index: 10;
@@ -261,6 +291,44 @@ span.anticon.anticon-menu.sider-toggler {
   color: whitesmoke;
 }
 
+.carusel {
+  max-height: 800px;
+  min-width: 218px;
+  width: 100%;
+  padding: 10px;
+}
+
+.bannerText {
+  background: rgba(0,0,0,0.1);
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
+  display: inline-block;
+  position: absolute;
+  top: 66%;
+  right: 10%;
+  line-height: 55px;
+  z-index: 1;
+  animation: outer-left 1s 1s ease both;
+  padding: 20px;
+  font-family: auto;
+  font-style: italic !important;
+  border-radius: 20px;
+
+}
+
+
+.bannerText .title {
+  color: white;
+  font-size: 48px;
+}
+
+.bannerText .subTitle {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  justify-content: flex-end;
+  display: flex;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -276,6 +344,29 @@ span.anticon.anticon-menu.sider-toggler {
     width: 20px;
     height: 20px;
     cursor: pointer;
+  }
+
+  .bannerText {
+    left: 10% !important;
+    padding: 10px !important;
+    font-size: 12px !important;
+    width: 300px !important;
+    top: 5% !important;
+    line-height: 30px !important;
+  }
+
+  .bannerText .title {
+    font-size: 22px !important;
+  }
+  
+  .bannerText .subTitle {
+    font-size: 18px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .contentCarusel {
+    background-image: none !important;
   }
 
   .sider {
@@ -317,5 +408,52 @@ span.anticon.anticon-menu.sider-toggler {
 
   ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
     display: none;
+  }
+
+  .imageBanner {
+    color: '#fff';
+    text-align: 'center';
+    background:'#364d79';
+    position: relative;
+    display: block;
+    width:'100%';
+    max-height: 350px !important;
+  }
+
+  .carusel {
+    height: 375px;
+    min-width: 218px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .bannerText {
+    background: rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
+    display: inline-block;
+    position: absolute;
+    top: 66%;
+    right: 10%;
+    line-height: 55px;
+    z-index: 1;
+    animation: outer-left 1s 1s ease both;
+    padding: 20px;
+    font-family: auto;
+    font-style: italic !important;
+    
+  }
+  
+  
+  .bannerText .title {
+    color: white;
+    font-size: 48px;
+  }
+  
+  .bannerText .subTitle {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    justify-content: flex-end;
+    display: flex;
   }
 }

@@ -6,6 +6,7 @@ import tr from '@/statics/localization/tr';
 import en from '@/statics/localization/en';
 import styles from '@/styles/Home.module.css'
 
+
 export default function About() {
     const routerTemp = useRouter();
     const {locale} = routerTemp;

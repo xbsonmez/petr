@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <CustomLayout>
         <Component {...pageProps} />
-      </CustomLayout>)
+      </CustomLayout>
     </>
 
   );

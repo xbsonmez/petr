@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import {useRouter} from 'next/router';
 import tr from '@/statics/localization/tr';
 import en from '@/statics/localization/en';
 import SendInfoMail from '@/components/SendInfoMail';
+import CustomCarusel from '@/components/CustomCarusel';
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,6 +25,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div style={{marginTop:'64px'}}>
+      <CustomCarusel />
+      </div>
+
       <main className={styles.main}>
 
         <div className={styles.description}>
@@ -57,6 +62,7 @@ export default function Home() {
         </div>
        
       </main>
+
     </>
   )
 }
