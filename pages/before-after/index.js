@@ -14,8 +14,9 @@ export default function BeforeAfter() {
     return (
         <Fragment>
         <Head>
-        <title>{''}</title>
-        <meta property="og:title" content={'Saç Ekimi'} key="title" />
+        <title>{t.beforeAfter + ' Petra Hair Transplant'}</title>
+        <meta name="description" content="Petra Hair Transplant, Petra Saç Ekimi, İstanbul Saç Ekimi " />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
       </Head>
     <div className={styles.main}> 
     <h2 className='pageTitle'> <b>{t.beforeAfter}</b></h2>
@@ -28,7 +29,7 @@ export default function BeforeAfter() {
     </div>
         {t.aboutContent}
     </div>
-    <div style={{display:'flex', flexWrap:'wrap', justifyContent:'center'}}> 
+    <div style={{display:'flex', flexWrap:'wrap', justifyContent:'center', background:`url('/before-after/bg.jpeg')`, backgroundPosition:'center center'}}> 
       <img className={styles.beforeAfterBanner} src="/before-after/feridunbeforeafter.jpg" />
       <img className={styles.beforeAfterBanner} src="/before-after/beforeafter.jpg"/>
       <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter.jpg" />

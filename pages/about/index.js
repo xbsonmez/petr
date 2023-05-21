@@ -15,7 +15,7 @@ export default function About() {
     return (
         <Fragment>
         <Head>
-        <title>{''}</title>
+        <title>{t.about + 'Petra'}</title>
         <meta property="og:title" content={'Saç Ekimi'} key="title" />
       </Head>
     <div className={styles.main}> 
