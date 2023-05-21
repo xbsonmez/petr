@@ -28,7 +28,7 @@ export default function BeforeAfter() {
     </div>
         {t.aboutContent}
     </div>
-    <div> 
+    <div style={{display:'flex', flexWrap:'wrap', justifyContent:'center'}}> 
       <img className={styles.beforeAfterBanner} src="/before-after/feridunbeforeafter.jpg" />
       <img className={styles.beforeAfterBanner} src="/before-after/beforeafter.jpg"/>
       <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter.jpg" />
