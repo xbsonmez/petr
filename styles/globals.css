@@ -214,10 +214,6 @@ ul.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-dark {
   margin: 10px;
 }
 
-.contentCarusel {
-  background-image: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%);
-  background-position: center center;
-}
 
 .imageBanner {
   color: '#fff';
