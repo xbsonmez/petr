@@ -27,7 +27,7 @@ export default function Home() {
       <main className={styles.main}>
 
         <div className={styles.description}>
-          <img className={styles.homeBanner} src="/test1.jpeg" />
+          <img className={styles.homeBanner} src="/before-after/eminbeforeafter2.jpg" />
           <div className={styles.homeBannerText}>
             <h2 style={{textAlign:'center'}}>{t.tranplantTitle}</h2>
             <p>{t.transplantContent}</p>

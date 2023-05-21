@@ -21,12 +21,22 @@ export default function BeforeAfter() {
     <h2> <b>{t.beforeAfter}</b></h2>
     <div className={styles.description}>
    <div>
-     <img className={styles.beforeAfterBanner} src="/test1.jpeg" />
-      <img className={styles.beforeAfterBanner} src="/test2.jpeg"/>
+     <img className={styles.beforeAfterBanner} src="/before-after/eminbeforeafter.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/ahmetbeforeafter.jpg"/>
    </div>
 
     </div>
         {t.aboutContent}
+    </div>
+    <div> 
+      <img className={styles.beforeAfterBanner} src="/before-after/feridunbeforeafter.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/beforeafter.jpg"/>
+      <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter2.jpg"/>
+      <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter3.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter5.jpg"/>
+      <img className={styles.beforeAfterBanner} src="/before-after/omer/omer-beforeafter.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/omer/omer-beforeafter2.jpg"/>
     </div>
     </Fragment>
     );
