@@ -18,7 +18,7 @@ export default function BeforeAfter() {
         <meta property="og:title" content={'Saç Ekimi'} key="title" />
       </Head>
     <div className={styles.main}> 
-    <h2> <b>{t.beforeAfter}</b></h2>
+    <h2 className='pageTitle'> <b>{t.beforeAfter}</b></h2>
     <div className={styles.description}>
    <div>
      <img className={styles.beforeAfterBanner} src="/before-after/eminbeforeafter.jpg" />

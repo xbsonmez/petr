@@ -291,6 +291,11 @@ span.anticon.anticon-menu.sider-toggler {
   color: whitesmoke;
 }
 
+.pageTitle {
+  font-family: auto;
+  font-style: italic !important;
+}
+
 .carusel {
   max-height: 800px;
   min-width: 218px;
