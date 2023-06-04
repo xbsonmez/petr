@@ -13,7 +13,7 @@ export default function CustomVideoPlayer({source, image,  ...rest}) {
           preload='auto' 
           src={source} 
           type="video/mp4"
-          style={{backgroundImage:image}}
+          poster={image}
           />
         </div>
     );
