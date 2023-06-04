@@ -8,7 +8,6 @@ import React, { useEffect, useRef} from 'react';
 
     useEffect(()=>{
         videoRef.current.style.display = 'block';
-        videoRef.current.src = source;
     }, []);
 
     return (
@@ -17,9 +16,11 @@ import React, { useEffect, useRef} from 'react';
           ref={videoRef}
           className='videoClass' 
           controls 
-          playsInline 
+          playsInline
+          autoplay
           preload='auto' 
           type="video/mp4"
+          src={source}
           />
         </div>
     );
