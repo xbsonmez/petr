@@ -457,9 +457,14 @@ span.anticon.anticon-menu.sider-toggler {
     justify-content: flex-end;
     display: flex;
   }
+
+  .videoClass {
+    height: 165px !important;
+  }
 }
 
 
 .videoClass {
   width: 100%;
+  height: 345px;
 }

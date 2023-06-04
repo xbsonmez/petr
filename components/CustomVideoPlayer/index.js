@@ -15,12 +15,12 @@ import React, { useEffect, useRef} from 'react';
           <video 
           ref={videoRef}
           className='videoClass' 
-          controls 
+          controls
           playsInline
           autoplay
-          preload='auto' 
           type="video/mp4"
           src={source}
+          poster={image}
           />
         </div>
     );

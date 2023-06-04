@@ -40,8 +40,8 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.grid}>
-          <CustomVideoPlayer source={'/videos/ahmet.mp4'}/>
-          <CustomVideoPlayer source={'/videos/burak.mp4'}/>
+          <CustomVideoPlayer source={'/videos/ahmet.mp4'} image={'/before-after/ahmetbeforeafter.jpg'}/>
+          <CustomVideoPlayer source={'/videos/burak.mp4'}  image={'/before-after/burak/burakbeforeafter.jpg'}/>
         </div>
         <div className={styles.contactWithUs}>
           <div style={{width:'100%', display:'flex', justifyContent:'center', marginBottom:10, fontSize:35, textAlign:'center'}}>
