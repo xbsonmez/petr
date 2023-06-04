@@ -5,7 +5,7 @@ import React from 'react';
 export default function CustomVideoPlayer({source, image,  ...rest}) {
 
     return (
-        <div className="video-player">
+        <div className="video-player" style={{backgroundImage:image, objectFit:'cover'}}>
           <video 
           className='videoClass' 
           controls 
@@ -13,7 +13,6 @@ export default function CustomVideoPlayer({source, image,  ...rest}) {
           preload='auto' 
           src={source} 
           type="video/mp4"
-          poster={image}
           />
         </div>
     );
