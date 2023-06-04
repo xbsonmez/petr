@@ -376,7 +376,7 @@ span.anticon.anticon-menu.sider-toggler {
     background: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%);
     color: whitesmoke;
     opacity: 1;
-    z-index: 10;
+    z-index: 99;
     position: fixed;
     transform: translateX(0%);
     transition: transform .5s;
@@ -459,22 +459,4 @@ span.anticon.anticon-menu.sider-toggler {
   }
 }
 
-.buttonDirection {
-  position: absolute;
-  right: 0;
-  top: 40%;
-  border-radius: 20px;
-  background-color: #222426;
-  color: #fccb6b;
-  border: none;
-}
 
-.buttonDirectionLeft {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  border-radius: 20px;
-  background-color: #222426;
-  color: #fccb6b;
-  border: none;
-}
