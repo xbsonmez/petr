@@ -1,4 +1,6 @@
 import '@/styles/globals.css';
+import '@/styles/patient.css';
+
 import CustomLayout from '../components/CustomLayout';
 import Head from 'next/head'
 

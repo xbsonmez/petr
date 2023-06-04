@@ -458,3 +458,23 @@ span.anticon.anticon-menu.sider-toggler {
     display: flex;
   }
 }
+
+.buttonDirection {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  border-radius: 20px;
+  background-color: #222426;
+  color: #fccb6b;
+  border: none;
+}
+
+.buttonDirectionLeft {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  border-radius: 20px;
+  background-color: #222426;
+  color: #fccb6b;
+  border: none;
+}

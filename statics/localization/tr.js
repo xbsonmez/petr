@@ -18,4 +18,6 @@ export default {
     phoneNumber:'Telefon Numaranız',
     emptyError:'Bu alan boş olamaz.',
     contactWithUs: 'Bizimle İletişime Geçin!',
+    comments: 'Hasta Yorumlarımız',
+    patientDesc:`Binlerce hastamız Petra Hair Transplant'tan duyduğu mutluluğu sizlerle paylaşıyor. Petra sizlerin mutluluğu için var.`
 };

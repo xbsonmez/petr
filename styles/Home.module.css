@@ -64,9 +64,10 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-columns: repeat(2, 1fr);
   width: var(--max-width);
   max-width: 100%;
+  gap: 10px;
 }
 
 .card {
@@ -137,6 +138,16 @@
   background: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%);
   color: whitesmoke;
   padding: 20px;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderContainer {
+  width: 100%;
+  padding: 0 6rem;
 }
 
 .logo,
@@ -220,6 +231,15 @@
     padding-top: 70px;
   }
 
+  .slider {
+    padding: 0rem;
+    margin: 10px;
+  }
+  
+  .sliderContainer {
+    padding: 10px;
+  }
+
   .homeBanner {
     margin-bottom: 10px;
   }
@@ -234,7 +254,7 @@
   
   .grid {
     grid-template-columns: 1fr;
-    margin-bottom: 120px;
+    margin-bottom: 10px;
     max-width: 320px;
     text-align: center;
   }
@@ -292,3 +312,6 @@
     transform: rotate(0deg);
   }
 }
+
+
+

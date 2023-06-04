@@ -1,0 +1,68 @@
+.patient {
+    padding-top: 100px;
+    background-color: #202224;
+    height: 100vh;
+}
+.patientContent {
+    color: #fccb6b;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 0px 95px;
+    padding: 0px;
+}
+
+.patientVideos {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 700px) {
+
+    .patientContent {
+        font-size: 12px;
+        margin: 0px 8px;
+        padding: 0px;
+    }
+    
+    .patientVideos {
+        margin-top: 20px;
+    } 
+
+
+    button.ant-btn.ant-btn-default.buttonDirection {
+        width: 40px !important; 
+        height: 32px !important; 
+        top: 32% !important; 
+      }
+      
+      button.ant-btn.ant-btn-default.buttonDirectionLeft {
+        width: 40px !important;
+        height: 32px !important; 
+        top: 32% !important; 
+      }
+}
+
+button.ant-btn.ant-btn-default.buttonDirection {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    border-radius: 20px;
+    background-color: #222426;
+    color: #fccb6b;
+    border: none;
+    width: 40px;
+    height: 50px;
+  }
+  
+  button.ant-btn.ant-btn-default.buttonDirectionLeft {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    border-radius: 20px;
+    background-color: #222426;
+    color: #fccb6b;
+    border: none;
+    width: 40px;
+    height: 50px;
+  }

@@ -41,7 +41,7 @@ export default function Header(prop) {
 
 
     return (
-      <Header style={{background: 'linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%)', display: 'flex', flexDirection: 'row', position: 'fixed', zIndex: 9, width: '100%'}}>
+      <Header style={{background: 'linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%)', display: 'flex', flexDirection: 'row', position: 'fixed', zIndex: 99, width: '100%'}}>
         <div className="logo">  
         <div className="image" onClick={()=>{onClickLogo()}} >
         <img src="/vektor2-removebg.png" style={{width:120, height:60}}/>
@@ -62,6 +62,14 @@ export default function Header(prop) {
           <div className="header-item">
           <Button type="primary" className="button-primary">
             <Link href="/about">{t.aboutUs}</Link>
+          </Button>
+        </div>
+        </Menu.Item>
+
+        <Menu.Item key="3">
+          <div className="header-item">
+          <Button type="primary" className="button-primary">
+            <Link href="/hasta-yorumlari">{t.comments}</Link>
           </Button>
         </div>
         </Menu.Item>

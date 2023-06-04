@@ -18,5 +18,6 @@ export default  {
     phoneNumber:'Phone Number',
     emptyError:'Can not be empty.',
     contactWithUs: 'Contact With Us!',
-    
+    comments: 'Patient Comments',
+    patientDesc:`Thousands of our patients share their happiness with Petra Hair Transplant with you. Petra exists for your happiness.`
 };

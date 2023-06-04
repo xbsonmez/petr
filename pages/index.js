@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.css';
 import {useRouter} from 'next/router';
 import tr from '@/statics/localization/tr';
 import en from '@/statics/localization/en';
 import SendInfoMail from '@/components/SendInfoMail';
 import CustomCarusel from '@/components/CustomCarusel';
+import CustomVideoPlayer from '@/components/CustomVideoPlayer';
 
 
 
@@ -38,7 +39,10 @@ export default function Home() {
             <p>{t.transplantContent}</p>
           </div>
         </div>
-        
+        <div className={styles.grid}>
+          <CustomVideoPlayer source={'/videos/ahmet.mp4'}/>
+          <CustomVideoPlayer source={'/videos/burak.mp4'}/>
+        </div>
         <div className={styles.contactWithUs}>
           <div style={{width:'100%', display:'flex', justifyContent:'center', marginBottom:10, fontSize:35, textAlign:'center'}}>
          {t.contactWithUs}
@@ -57,9 +61,9 @@ export default function Home() {
         </div>
        
          
-        <div className={styles.grid}>
+   
+     
 
-        </div>
        
       </main>
 

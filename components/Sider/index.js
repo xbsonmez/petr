@@ -50,6 +50,14 @@ export default function Sider(prop) {
             <Link href="/about">{t.aboutUs}</Link>
           </Button>
         </div>
+        
+        </Menu.Item>
+        <Menu.Item key="3">
+          <div className="header-item">
+          <Button type="primary" className="button-primary">
+            <Link href="/hasta-yorumlari">{t.comments}</Link>
+          </Button>
+        </div>
         </Menu.Item>
 
       </Menu>
