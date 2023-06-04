@@ -142,8 +142,7 @@
 }
 
 .slider {
-  display: flex;
-  justify-content: center;
+  width: 800px;
 }
 
 .sliderContainer {
@@ -235,6 +234,7 @@
   .slider {
     padding: 0rem;
     margin: 10px;
+    width: 400px;
   }
   
   .sliderContainer {
