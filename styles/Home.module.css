@@ -68,6 +68,7 @@
   width: var(--max-width);
   max-width: 100%;
   gap: 10px;
+  margin: 20px;
 }
 
 .card {
