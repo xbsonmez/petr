@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useEffect, useRef} from 'react';
 
 
+ const CustomVideoPlayer = ({source, image,  ...rest}) =>{
 
-export default function CustomVideoPlayer({source, image,  ...rest}) {
+
+    const videoRef = useRef(null);
+
+    useEffect(()=>{
+        videoRef.current.style.display = 'block';
+        videoRef.current.src = source;
+    }, []);
 
     return (
-        <div className="video-player" style={{backgroundImage:image, objectFit:'cover'}}>
+        <div className="video-player">
           <video 
+          ref={videoRef}
           className='videoClass' 
           controls 
           playsInline 
           preload='auto' 
-          src={source} 
           type="video/mp4"
           />
         </div>
     );
-}
+};
+export default CustomVideoPlayer;
