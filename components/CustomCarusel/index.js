@@ -50,7 +50,7 @@ const CustomCarusel = () =>{
               <div className='title'>En önemlisi sizin mutluluğunuz.</div>
               <div className='subTitle'>Petra</div>
               </div>
-              <Image src="/before-after/hakan/hakan-beforeafter14.jpg" layout="fill" objectFit="cover" className='imageSlider'  alt="Turkey Hair Transplant"/>
+              <Image src="/before-after/salim.png" layout="fill" objectFit="cover" className='imageSlider'  alt="Turkey Hair Transplant"/>
               </h3>
             </div>
   </Carousel>

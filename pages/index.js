@@ -7,6 +7,7 @@ import en from '@/statics/localization/en';
 import SendInfoMail from '@/components/SendInfoMail';
 import CustomCarusel from '@/components/CustomCarusel';
 import CustomVideoPlayer from '@/components/CustomVideoPlayer';
+import SubMenus from '@/components/SubMenus';
 
 
 
@@ -26,24 +27,24 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div style={{marginTop:'64px'}}>
+      <div style={{marginTop:'64px'}} id='pageTop'>
       <CustomCarusel />
       </div>
 
       <main className={styles.main}>
-
-        <div className={styles.description}>
-          <img className={styles.homeBanner} src="/before-after/eminbeforeafter2.jpg" />
-          <div className={styles.homeBannerText}>
-            <h2 style={{textAlign:'center'}}>{t.tranplantTitle}</h2>
-            <p>{t.transplantContent}</p>
-          </div>
+       
+        <div style={{width:'100%',padding:'10px'}}>
+          <h1 style={{textAlign:'center'}}>{t.transplantMethods}</h1>
+          <SubMenus />
         </div>
+        <div style={{width:'100%',padding:'10px',margin:'auto', maxWidth:'1120px'}}>
+        <h1 style={{textAlign:'center'}}>{t.patientHappinies}</h1>
         <div className={styles.grid}>
           <CustomVideoPlayer source={'/videos/ahmet.mp4'} image={'/before-after/ahmetbeforeafter.jpg'}/>
           <CustomVideoPlayer source={'/videos/burak.mp4'}  image={'/before-after/burak/burakbeforeafter.jpg'}/>
         </div>
-        <div className={styles.contactWithUs}>
+        </div>
+        <div className={styles.contactWithUs} id='contactWithUSDiv'>
           <div style={{width:'100%', display:'flex', justifyContent:'center', marginBottom:10, fontSize:35, textAlign:'center'}}>
          {t.contactWithUs}
           </div>
@@ -52,19 +53,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.description}>
-        <div style={{marginBottom:'10px'}}>
-            <h3  style={{textAlign:'center'}}>{t.transplantInfo}</h3>
-            <p>{t.transplantInfoContent}</p>
-          </div>
-          <img className={styles.homeBanner2} src="/vektor1.png" />
-        </div>
-       
-         
-   
-     
-
-       
       </main>
 
     </>

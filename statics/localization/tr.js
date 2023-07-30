@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
     aboutUs: 'Hakkımızda',
-    beforeAfter: 'Öncesi/Sonrası',
+    beforeAfter: 'Öncesi & Sonrası',
     petraTitle:'Petra Saç Ekimi',
     about:`Hakkımızda`,
     aboutContent:`Dünyanın her yerinden gelen hastalarımıza alanında uzman ve profesyonel doktorlarımız, son derece modern şekilde dizayn edilmiş kliniğimiz ve son teknoloji ekipmanlarımız ile hizmet vermeye devam ediyoruz.  Petra Hair Tranplant’de İstediğiniz operasyonu seçerek gür, canlı ve sağlıklı saçlarınıza eskisi gibi sahip olmak artık çok kolay. Uzman hekimlerimiz ile saç ekimi ve diğer alanlarda yıllardır siz değerli hastalarımıza başarıyla hizmet vermeye devam ediyoruz.
@@ -18,6 +18,9 @@ export default {
     phoneNumber:'Telefon Numaranız',
     emptyError:'Bu alan boş olamaz.',
     contactWithUs: 'Bizimle İletişime Geçin!',
+    starToHairAnalaysis: 'Ücretsiz Saç Analizine Başlayın.',
     comments: 'Hasta Yorumlarımız',
-    patientDesc:`Binlerce hastamız Petra Hair Transplant'tan duyduğu mutluluğu sizlerle paylaşıyor. Petra sizlerin mutluluğu için var.`
+    patientDesc:`Binlerce hastamız Petra Hair Transplant'tan duyduğu mutluluğu sizlerle paylaşıyor. Petra sizlerin mutluluğu için var.`,
+    transplantMethods:'Saç Ekim Yöntemleri',
+    patientHappinies:'Hasta Memnuniyeti',
 };

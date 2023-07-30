@@ -18,6 +18,9 @@ export default  {
     phoneNumber:'Phone Number',
     emptyError:'Can not be empty.',
     contactWithUs: 'Contact With Us!',
+    starToHairAnalaysis: 'Free Hair Analysis.',
     comments: 'Patient Comments',
-    patientDesc:`Thousands of our patients share their happiness with Petra Hair Transplant with you. Petra exists for your happiness.`
+    patientDesc:`Thousands of our patients share their happiness with Petra Hair Transplant with you. Petra exists for your happiness.`,
+    transplantMethods:'Hair Transplant Methods',
+    patientHappinies:'Reviews',
 };

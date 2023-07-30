@@ -1,4 +1,4 @@
-import React, {  useState, useEffect  } from 'react';
+import React, {  useState, useEffect, useRef  } from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Button } from 'antd';
 import Link from 'next/link';
@@ -8,6 +8,7 @@ import tr from '@/statics/localization/tr';
 import en from '@/statics/localization/en';
 import { Select } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
+import styles from '@/styles/Home.module.css';
 
 
 export default function Header(prop) {
@@ -27,7 +28,10 @@ export default function Header(prop) {
     },[]);
   
     const onClickLogo = () => {
+      
+      window.scrollTo({top: 0});
       Router.push('/');
+
     };
 
     const changeLanguage = e => {
@@ -38,9 +42,20 @@ export default function Header(prop) {
     };
 
 
-
+    const scrollToContactWithUs = () => {
+      Router.push('/');
+      setTimeout(()=>{
+        const element = document.getElementById('contactWithUSDiv');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      },200);
+     
+    };
+  
 
     return (
+      <> 
       <Header style={{background: 'linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%)', display: 'flex', flexDirection: 'row', position: 'fixed', zIndex: 99, width: '100%'}}>
         <div className="logo">  
         <div className="image" onClick={()=>{onClickLogo()}} >
@@ -96,6 +111,17 @@ export default function Header(prop) {
       </div>
 
       </Header>
+      <Header style={{background: 'linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%)', display: 'flex', flexDirection: 'row', position: 'fixed', zIndex: 99, width: '100%',marginTop:'64px'}} > 
+      <div style={{flexDirection:'row', minHeight:'64px',padding:'0', color:'white', display:'flex', flexDirection:'row',textAlign:'center', width:'100%'}}>
+          <div className={styles.contactWithUsTextArea}>
+          <div style={{display:'flex', flexDirection:'row'}}><p>{t.starToHairAnalaysis}</p>
+         <Button onClick={scrollToContactWithUs} style={{margin:'15px', backgroundColor:'#fccb6b', border:'1px solid white', color:'white', borderRadius:20}}>Hemen Tıkla!</Button></div>
+          </div>
+         
+        </div>
+      </Header>
+      </>
+
 
     );
 }

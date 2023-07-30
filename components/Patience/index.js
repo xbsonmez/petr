@@ -15,7 +15,7 @@ const Patience = () =>{
         <div key={7}><CustomVideoPlayer source={'/videos/hasan.mp4'} image={'/before-after/hasan/hasan-beforeafter20.jpg'}/> </div>,
         <div key={7}><CustomVideoPlayer source={'/videos/mustafa.mp4'} image={'/before-after/bg.jpeg'}/> </div>,
         <div key={7}><CustomVideoPlayer source={'/videos/osman.mp4'} image={'/before-after/osman/osman-beforeafter1.jpg'}/> </div>,
-        <div key={7}><CustomVideoPlayer source={'/videos/salim.mp4'}  image={'/before-after/saim/saimbeforeafter.jpg/'}/> </div>,
+        <div key={7}><CustomVideoPlayer source={'/videos/salim.mp4'}  image={'/before-after/salim.png'}/> </div>,
   
   ];
 

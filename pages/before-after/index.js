@@ -21,24 +21,23 @@ export default function BeforeAfter() {
     <div className={styles.main}> 
     <h2 className='pageTitle'> <b>{t.beforeAfter}</b></h2>
     <div className={styles.description}>
-   <div>
-     <img className={styles.beforeAfterBanner} src="/before-after/eminbeforeafter.jpg" />
-      <img className={styles.beforeAfterBanner} src="/before-after/ahmetbeforeafter.jpg"/>
-   </div>
+   
 
     </div>
-        {t.aboutContent}
-    </div>
-    <div style={{display:'flex', flexWrap:'wrap', justifyContent:'center', background:`url('/before-after/bg.jpeg')`, backgroundPosition:'center center'}}> 
-      <img className={styles.beforeAfterBanner} src="/before-after/feridunbeforeafter.jpg" />
-      <img className={styles.beforeAfterBanner} src="/before-after/beforeafter.jpg"/>
+      <div>{t.aboutContent} </div>
+      <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr', paddingTop:'20px', gap:'5px'}}> 
       <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter.jpg" />
       <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter2.jpg"/>
       <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter3.jpg" />
-      <img className={styles.beforeAfterBanner} src="/before-after/hasan/hasan-beforeafter5.jpg"/>
-      <img className={styles.beforeAfterBanner} src="/before-after/omer/omer-beforeafter.jpg" />
-      <img className={styles.beforeAfterBanner} src="/before-after/omer/omer-beforeafter2.jpg"/>
+      <img className={styles.beforeAfterBanner} src="/before-after/saim/saim-beforeafter.jpg"/>
+      <img className={styles.beforeAfterBanner} src="/before-after/saim/saim-beforeafter2.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/saim/saim-beforeafter3.jpg"/>
+      <img className={styles.beforeAfterBanner} src="/before-after/burak/burakbeforeafter.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/burak/burak-beforeafter2.jpg" />
+      <img className={styles.beforeAfterBanner} src="/before-after/burak/burak-beforeafter3.jpg" />
     </div>
+    </div>
+
     </Fragment>
     );
 };

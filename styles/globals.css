@@ -93,12 +93,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: linear-gradient(159deg, rgba(7,8,8,1) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%) !important;
+
 }
 .ant-menu-horizontal > .ant-menu-item-selected a {
   color: var(--yellow) !important;
@@ -112,6 +108,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  color:  var(--white) !important;
+  font-size: 35px;
+}  
 
 .ant-btn-primary {
   color: var(--yellow) !important;
@@ -471,4 +473,38 @@ span.anticon.anticon-menu.sider-toggler {
 .videoClass {
   width: 100%;
   height: 345px;
+}
+
+.subMenu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.subMenu-card-container {
+  border: 1px solid var(--yellow);
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  box-shadow: 4px 4px #cd832b;
+  transition:0.3s;
+  cursor: pointer;
+}
+
+.subMenu-card-container:hover{
+  transform: scaleY(1.1);
+  transform-origin: center;
+}
+
+.subMenu-card-container:hover span {
+  transform: scaleY(0.66);
+}
+
+.footer {
+  background: linear-gradient(159deg, rgb(252 203 107) 0%, rgba(75,79,85,1) 49%, rgba(127,132,140,1) 100%) !important;
+  color: var(--white);
+  padding: 30px 0 60px;
 }

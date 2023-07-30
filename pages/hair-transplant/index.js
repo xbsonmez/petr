@@ -7,7 +7,7 @@ import en from '@/statics/localization/en';
 import styles from '@/styles/Home.module.css'
 
 
-export default function About() {
+export default function HairTransplant() {
     const routerTemp = useRouter();
     const {locale} = routerTemp;
 
@@ -15,13 +15,12 @@ export default function About() {
     return (
         <Fragment>
         <Head>
-        <title>{t.about + 'Petra'}</title>
-        <meta property="og:title" content={'Saç Ekimi'} key="title" />
+        <title>{'Petra Saç Ekimi Hizmetlerimiz'}</title>
+        <meta property="og:title" content={'Saç Ekimi Hizmetlerimiz'} key="title" />
       </Head>
     <div className={styles.main}> 
-                <h2><b>{t.about}</b></h2>
-                {t.aboutContent}
-                <img src="/vektor1.png" style={{width:'500px', padding:20}}/>
+    <h1>Saç Ekimi Operasyonu Nasıl Gerçekleşir?</h1>
+    <p>{t.transplantContent}</p>
     </div>
     </Fragment>
     );
