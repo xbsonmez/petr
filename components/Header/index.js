@@ -1,4 +1,4 @@
-import React, {  useState, useEffect, useRef  } from 'react';
+import React, {  useState, useEffect  } from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Button } from 'antd';
 import Link from 'next/link';
@@ -28,6 +28,12 @@ export default function Header(prop) {
     },[]);
   
     const onClickLogo = () => {
+      setTimeout(()=>{
+        const element = document.getElementById('beginning');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      },200);
       routerTemp.push('/');
 
     };
