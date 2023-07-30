@@ -27,7 +27,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div style={{marginTop:'64px'}} id='pageTop'>
+      <div style={{marginTop:'124px'}} id='pageTop'>
       <CustomCarusel />
       </div>
 

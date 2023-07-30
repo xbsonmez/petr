@@ -28,9 +28,7 @@ export default function Header(prop) {
     },[]);
   
     const onClickLogo = () => {
-      
-      window.scrollTo({top: 0});
-      Router.push('/');
+      routerTemp.push('/');
 
     };
 

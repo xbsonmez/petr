@@ -1,14 +1,17 @@
 import React from 'react';
-import Router from 'next/router';
+import {useRouter} from 'next/router';
 
 
 export default function SubMenuCard(prop) {
     
     const {title, icon} = prop.item;
 
+    const router = useRouter();
+
     const onClickFunc = ()=> {
-        Router.push('/hair-transplant');
-        window.scrollTo({top });
+        router.push({ pathname: '/hair-transplant',
+        query: { ...router.query },
+      }, { scroll: false });
     };
     return (
         <div className="subMenu-card-container" onClick={onClickFunc}>

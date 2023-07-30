@@ -5,7 +5,6 @@ import {subMenuItems} from '@/statics/constants';
 
 export default function SubMenus() {
 
-    console.log('subMenuItems' , subMenuItems);
     return (
         <div className="subMenu-container">
            { subMenuItems.map((e, index, ) => 
