@@ -9,9 +9,7 @@ export default function SubMenuCard(prop) {
     const router = useRouter();
 
     const onClickFunc = ()=> {
-        router.push({ pathname: '/hair-transplant',
-        query: { ...router.query },
-      }, { scroll: false });
+        router.push('/hair-transplant');
     };
     return (
         <div className="subMenu-card-container" onClick={onClickFunc}>
