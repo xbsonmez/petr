@@ -8,14 +8,14 @@ const CustomCarusel = () =>{
 
     return (
         <>
-             <Carousel swipeToSlide draggable autoplay >
+             <Carousel swipeToSlide draggable  >
              <div className='contentCarusel'>
              <h3 className='imageBanner'>
             <div className='bannerText'>
               <div className='title'>Hastalarımız bizim için önemli. </div>
               <div className='subTitle'>Petra</div>
             </div>
-                <Image src="/before-after/hasan/hasan-beforeafter20.jpg" layout="fill" objectFit="cover" className='imageSlider' alt="Petra Hair Transplant"/>
+                <Image src="/before-after/hasan.png" layout="fill" objectFit="cover" className='imageSlider' alt="Petra Hair Transplant"/>
               </h3>
             </div>
 
@@ -24,9 +24,10 @@ const CustomCarusel = () =>{
               <div className='bannerText'>
               <div className='title'>Petra <br/> sizin mutluluğunuz için var.</div>
                 </div>
-            <Image src="/before-after/ferudun/ferudun-beforeafter13.jpg" layout="fill" objectFit="cover"   alt="Petra Saç Ekim"/>
+            <Image src="/before-after/emin.png" layout="fill" objectFit="cover"  className='imageSlider'  alt="Petra Saç Ekim"/>
               </h3>
             </div>
+
             <div className='contentCarusel'>
               <h3 className='imageBanner'>
               <div className='bannerText'>
