@@ -20,10 +20,10 @@ export default function Footer() {
             </div>
             <div style={{borderTop:'1px solid',paddingTop:'12px', margin:'auto',padding:'0 10px', display:'grid', gap:'20px', gridTemplateColumns:'2fr 1fr 2fr', maxWidth:'1120px'}}>
                 <div>
-                    <a href="tel:+905542157765">
+                    <a href="tel:+905318561585">
                         <h1>
                             <Image src="/phone.png" width="32" height="32" objectFit="cover"  alt="Petra Hair Transplant Phone"/>
-                            +90 554 215 77 65
+                            +90 531 856 15 85
                         </h1>
                     </a>
                 </div>

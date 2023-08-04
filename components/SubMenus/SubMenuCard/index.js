@@ -4,12 +4,12 @@ import {useRouter} from 'next/router';
 
 export default function SubMenuCard(prop) {
     
-    const {title, icon} = prop.item;
+    const {title, icon, link} = prop.item;
 
     const router = useRouter();
 
     const onClickFunc = ()=> {
-        router.push('/hair-transplant');
+        router.push(link);
     };
     return (
         <div className="subMenu-card-container" onClick={onClickFunc}>
