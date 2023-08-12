@@ -8,7 +8,7 @@ const CustomCarusel = () =>{
 
     return (
         <>
-             <Carousel swipeToSlide draggable  >
+             <Carousel swipeToSlide draggable autoplay autoplaySpeed={3000}>
              <div className='contentCarusel'>
              <h3 className='imageBanner'>
             <div className='bannerText'>
