@@ -37,7 +37,9 @@ export default {
     patientKey:'Saç Ekimi Öncesi Ve Sonrası Hasta Rehberi',
     whyPetraKey:'Neden Petra Hair',
     beardKey:'Sakal Ve Kaş Ekimi',
+    
 
+    socailMedia:'Sosyal Medyada Biz',
 
     aboutUsPetra : `
     <p>BİZ KİMİZ</p>

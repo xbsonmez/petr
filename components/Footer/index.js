@@ -36,7 +36,7 @@ export default function Footer() {
                     </div>
                 </div>
                     <div style={{display:'flex', justifyContent:'center',flexDirection:'column', justifyContent:'flex-start', textAlign:'center'}}>
-                    <p style={{fontSize:'14px', paddingTop:'25px', fontWeight:'700'}}>Sosyal Medyada Biz</p>
+                    <p style={{fontSize:'14px', paddingTop:'25px', fontWeight:'700'}}>{t.socailMedia}</p>
                     <div style={{display:'flex',flexDirection:'row', justifyContent:'center'}}>
                         <a href="https://www.instagram.com/petrahairtransplant" style={{marginRight:'5px'}}>
                         <Image src="/instagram.png" width="44" height="44" objectFit="cover"  alt="Petra Hair Transplant Instagram"/>
