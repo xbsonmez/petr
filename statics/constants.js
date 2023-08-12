@@ -1,49 +1,65 @@
 export const subMenuItems = [
     {
-        title :'FUE ya da DHI tekniği',
+        title :'fueKey',
         icon:'hair-icon.png',
-        link:'/hair-transplant'
+        link:'/dhi-fue'
     },
     {
-        title :'Operasyon öncesi testler',
-        icon: 'hospital-bed.png',
-        link:'/hair-transplant'
+        title :'womenKey',
+        icon: 'women.png',
+        link:'/kadin-sac-ekimi'
     },
     {
-        title :'Konsültasyona ve Tedavi Planlaması',
+        title :'treatmentKey',
         icon: 'checklist.png',
-        link:'/hair-transplant'
+        link:'/konsultasyon-ve-tedavi-planlamasi'
     },
     {
-        title :'Profesyonel Tercümanlık Hizmetlerimiz',
-        icon: 'beard.png',
-        link:'/sac-ekimi-oncesi-ve-sonrasi'
+        title :'bodyHairKey',
+        icon: 'guide.png',
+        link:'/vucut-killarindan-sac-ekimi-mumkun-mu'
     },
     {
-        title :'Ulaşım (Otel-Klinik-Hastane)',
-        icon: 'ambulance.png',
-        link:'/sac-ekimi-oncesi-ve-sonrasi'
+        title :'shockKey',
+        icon: 'broken.png',
+        link:'/sok-dokulme'
     },
     {
-        title :'Saç Ekimi Sonrası Prp Mezoterapi',
+        title :'afterTransplantKey',
+        icon: 'brokenhair.png',
+        link:'/sac-ekimi-sonrasi-dokulme'
+    },
+    {
+        title :'trassızKey',
+        icon: 'shaver.png',
+        link:'/trassiz-sac-ekimi'
+    },
+    {
+        title :'prpKey',
         icon: 'laser.png',
-        link:'/sac-ekimi-oncesi-ve-sonrasi'
+        link:'/mezo-terapi-ve-prp'
     },
     {
-        title :'Operasyondan bir gün sonra pansuman',
+        title :'dressingKey',
         icon: 'ambulance.png',
-        link:'/sac-ekimi-oncesi-ve-sonrasi'
+        link:'/ekilen-sac-icin-pansuman'
     },
     {
-        title :'İlaçlar, şampuanlama ve losyon kullanımı',
+        title :'losyonKey',
         icon: 'medicine.png',
-        link:'/sac-ekimi-oncesi-ve-sonrasi'
+        link:'/ilaclar-ve-losyon-kullanimi'
     },
 
     {
-        title :'Saç Ekimi Öncesi Ve Sonrası Hasta Rehberi',
+        title :'beardKey',
+        icon: 'beard.png',
+        link:'/sakal-ve-kas-ekimi'
+    },
+    {
+        title :'whyPetraKey',
         icon: 'certificate.png',
-        link:'/sac-ekimi-oncesi-ve-sonrasi'
+        link:'/neden-petra-hair'
     }
+
 ]
 

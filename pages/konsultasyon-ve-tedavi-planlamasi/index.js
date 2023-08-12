@@ -7,7 +7,7 @@ import en from '@/statics/localization/en';
 import styles from '@/styles/Home.module.css'
 
 
-export default function About() {
+export default function KonsultasyonAndTreatment() {
     const routerTemp = useRouter();
     const {locale} = routerTemp;
 
@@ -15,12 +15,12 @@ export default function About() {
     return (
         <Fragment>
         <Head>
-        <title>{t.about + 'Petra'}</title>
-        <meta property="og:title" content={'Saç Ekimi'} key="title" />
+        <title>{'Konsültasyona ve Tedavi Planlaması'}</title>
+        <meta property="og:title" content={'Petra Hair Konsültasyona ve Tedavi Planlaması'} key="title" />
       </Head>
-    <div className={styles.main}> 
-                <div dangerouslySetInnerHTML={{__html:t.aboutUsPetra}}/>
-                <img src="/vektor1.png" style={{width:'500px', padding:20}}/>
+    <div className={styles.main} style={{marginTop:'80px'}}>
+        <h1>{t.treatmentTitle}</h1> 
+    <div dangerouslySetInnerHTML={{__html:t.treatmentDesc}} style={{textAlign:'left'}}/>
     </div>
     </Fragment>
     );

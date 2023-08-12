@@ -12,8 +12,7 @@ const CustomCarusel = () =>{
              <div className='contentCarusel'>
              <h3 className='imageBanner'>
             <div className='bannerText'>
-              <div className='title'>Hastalarımız bizim için önemli. </div>
-              <div className='subTitle'>Petra</div>
+            <img src="/vektor2-removebg.png" style={{width:200, height:120}}/>
             </div>
                 <Image src="/before-after/hasan.png" layout="fill" objectFit="cover" className='imageSlider' alt="Petra Hair Transplant"/>
               </h3>
@@ -22,8 +21,8 @@ const CustomCarusel = () =>{
             <div className='contentCarusel'>
               <h3 className='imageBanner'>
               <div className='bannerText'>
-              <div className='title'>Petra <br/> sizin mutluluğunuz için var.</div>
-                </div>
+            <img src="/vektor2-removebg.png" style={{width:200, height:120}}/>
+            </div>
             <Image src="/before-after/emin.png" layout="fill" objectFit="cover"  className='imageSlider'  alt="Petra Saç Ekim"/>
               </h3>
             </div>
@@ -31,26 +30,24 @@ const CustomCarusel = () =>{
             <div className='contentCarusel'>
               <h3 className='imageBanner'>
               <div className='bannerText'>
-              <div className='title'>Fark yaratmak için buradayız.</div>
-              </div>
+            <img src="/vektor2-removebg.png" style={{width:200, height:120}}/>
+            </div>
               <Image src="/before-after/osman/osman-beforeafter1.jpg" layout="fill" objectFit="cover" className='imageSlider'  alt="Saç Ekim"/>
               </h3>
             </div>
             <div className='contentCarusel'>
               <h3 className='imageBanner'>
               <div className='bannerText'>
-              <div className='title'>Sizi önemsiyoruz.</div>
-              <div className='subTitle'>Petra</div>
-              </div>
+            <img src="/vektor2-removebg.png" style={{width:200, height:120}}/>
+            </div>
               <Image src="/before-after/omer/omer-beforeafter.jpg" layout="fill" objectFit="cover" className='imageSlider'  alt="İstanbul Saç Ekim"/>
               </h3>
             </div>
             <div className='contentCarusel'>
               <h3 className='imageBanner'>
               <div className='bannerText'>
-              <div className='title'>En önemlisi sizin mutluluğunuz.</div>
-              <div className='subTitle'>Petra</div>
-              </div>
+            <img src="/vektor2-removebg.png" style={{width:200, height:120}}/>
+            </div>
               <Image src="/before-after/salim.png" layout="fill" objectFit="cover" className='imageSlider'  alt="Turkey Hair Transplant"/>
               </h3>
             </div>

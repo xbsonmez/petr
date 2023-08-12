@@ -51,7 +51,7 @@ export default function Header(prop) {
       setTimeout(()=>{
         const element = document.getElementById('contactWithUSDiv');
         if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
+          element.scrollIntoView({ behavior: 'smooth'});
         }
       },200);
      

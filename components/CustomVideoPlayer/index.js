@@ -17,7 +17,6 @@ import React, { useEffect, useRef} from 'react';
           className='videoClass' 
           controls
           playsInline
-          autoplay
           type="video/mp4"
           src={source}
           poster={image}

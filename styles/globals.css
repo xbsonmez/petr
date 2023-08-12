@@ -306,12 +306,11 @@ span.anticon.anticon-menu.sider-toggler {
 }
 
 .bannerText {
-  background: rgba(0,0,0,0.1);
   text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
   display: inline-block;
   position: absolute;
   top: 66%;
-  right: 10%;
+  right: 2%;
   line-height: 55px;
   z-index: 1;
   animation: outer-left 1s 1s ease both;
@@ -435,14 +434,13 @@ span.anticon.anticon-menu.sider-toggler {
   }
   
   .bannerText {
-    background: rgba(0,0,0,0.1);
     text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
     display: inline-block;
     position: absolute;
     top: 66%;
     right: 10%;
     line-height: 55px;
-    z-index: 1;
+    z-index: -1;
     animation: outer-left 1s 1s ease both;
     padding: 20px;
     font-family: auto;

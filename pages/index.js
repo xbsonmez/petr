@@ -8,6 +8,7 @@ import SendInfoMail from '@/components/SendInfoMail';
 import CustomCarusel from '@/components/CustomCarusel';
 import CustomVideoPlayer from '@/components/CustomVideoPlayer';
 import SubMenus from '@/components/SubMenus';
+import AboutUs from '@/components/AboutUs';
 
 
 
@@ -32,21 +33,25 @@ export default function Home() {
       </div>
 
       <main className={styles.main}>
-       
+             
+        <div>
+      <AboutUs />
+
+        </div>
         <div style={{width:'100%',padding:'10px'}}>
           <h1 style={{textAlign:'center'}}>{t.transplantMethods}</h1>
           <SubMenus />
         </div>
         <div style={{width:'100%',padding:'10px',margin:'auto', maxWidth:'1120px'}}>
         <h1 style={{textAlign:'center'}}>{t.patientHappinies}</h1>
-        <div className={styles.grid}>
+        <div className={styles.grid} id='contactWithUSDiv'>
           <CustomVideoPlayer source={'/videos/ahmet.mp4'} image={'/before-after/ahmetbeforeafter.jpg'}/>
           <CustomVideoPlayer source={'/videos/burak.mp4'}  image={'/before-after/burak/burakbeforeafter.jpg'}/>
         </div>
         </div>
-        <div className={styles.contactWithUs} id='contactWithUSDiv'>
+        <div className={styles.contactWithUs} >
           <div style={{width:'100%', display:'flex', justifyContent:'center', marginBottom:10, fontSize:35, textAlign:'center'}}>
-         {t.contactWithUs}
+         <div >{t.contactWithUs}</div>
           </div>
           <div  style={{width:'100%', display:'flex', justifyContent:'center'}} > 
           <SendInfoMail t={t}/>
