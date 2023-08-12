@@ -3,6 +3,7 @@ import tr from '@/statics/localization/tr';
 import en from '@/statics/localization/en';
 import Router, {useRouter} from 'next/router';
 import Image from 'next/image';
+import Tiktok from '../Tiktok';
 
 
 export default function Footer() {
@@ -38,6 +39,9 @@ export default function Footer() {
                         <a href="https://www.instagram.com/petrahairtransplant">
                         <Image src="/instagram.png" width="44" height="44" objectFit="cover"  alt="Petra Hair Transplant Instagram"/>
                         </a>
+                    </div>
+                    <div style={{display:'flex', justifyContent:'center',flexDirection:'column', marginLeft:'5px'}}>
+                        <Tiktok/>
                     </div>
                     </div>
             </div>
