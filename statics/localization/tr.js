@@ -41,8 +41,7 @@ export default {
 
     aboutUsPetra : `
     <p>BİZ KİMİZ</p>
-<p><strong>Petra Hair</strong></p>
-<p>Petra Hair hastalarını, doğru tedavi y&oumlntemleriyle ve g&uumlvenilir bir hizmet almasını hedefleyen, uluslararası hizmet veren sağlık turizmi firmasıdır. Petra Hair olarak saç kaybı yaşayan ve sağlık &ccedil&oumlz&uumlmleri arayan misafirlerimize 10000 saati aşan saç, sakal ve kaş ekimi konusunda deneyimli uzman kadromuzla buluşturuyoruz.</p>
+<p>Petra Hair hastalarını, doğru tedavi y&oumlntemleriyle ve g&uumlvenilir bir hizmet almasını hedefleyen, uluslararası hizmet veren sağlık turizm danışmanlığı firmasıdır. Petra Hair olarak saç kaybı yaşayan ve sağlık &ccedil&oumlz&uumlmleri arayan misafirlerimize 10000 saati aşan saç, sakal ve kaş ekimi konusunda deneyimli uzman kadromuzla buluşturuyoruz.</p>
 <p>&Ccedilalıştığımız doktor ve tıp merkezinin y&uumlksek standartlarda hizmet vermesini temel alıyoruz. Konaklama se&ccedileneklerini &ccedileşitlendiriyor, hastalarımıza standard, &oumlzel ve VIP olmak &uumlzere farklı segmentte hizmet se&ccedilenekleri sunuyoruz.</p>
 <p>&Oumlnceliğimiz hastalarımızın ihtiya&ccedillarını doğru analiz etmek ve bu doğrultuda uluslararası olarak onlara arzu ettiği hizmeti sağlamaktır. Alanında sekt&oumlre &oumlnc&uumll&uumlk eden bir firma olarak, verdiğimiz hizmet kalitesiyle ve s&uumlrekli ilerleme hedefiyle hizmet ağımızı her ge&ccedilen g&uumln b&uumly&uumlt&uumlyoruz.</p>
 `,
@@ -67,7 +66,7 @@ DhiFue:`
     <li style="text-align: left">Serum, saç k&oumlklerinin &ccedilevresel etkilerden, &oumlzellikle dehidrasyondan (kuruma) korunmasını sağlar.</li>
     <li style="text-align: left">Alınan greftler için ekim yapılacak bölgeye Sapphire FUE yöntemiyle doğru açıda uygun aralıklarda uzman kişi tarafından kanallar açılır.</li>
     <li style="text-align: left">Açılan kanallara alınan saç köklerine zarar verilmeden transferi gerçekleştirilir. </li>
-    <li style="text-align: left">Bununla birlikte,&nbsp<a href="https://petrahairtransplant.com/sac-ekimi-oncesi-ve-sonrasi" target="_blank">saç ekimi</a> operasyonları ortalama 8 saatten az s&uumlrer. Fakat saç ekimi spesifik bir işlemdir bu sebeple her kişide aynı s&uumlre ge&ccedilerli olmayacaktır. Petra Hair ailesi olarak sizlere vereceğimiz hizmette &oumlnceliğimiz saç ekimi sonrasında g&uumlzel bir sonu&ccedil almaktır.</li>
+    <li style="text-align: left">Bununla birlikte,&nbsp<a href="https://petrahairtransplant.com/neden-petra-hair" target="_blank">saç ekimi</a> operasyonları ortalama 8 saatten az s&uumlrer. Fakat saç ekimi spesifik bir işlemdir bu sebeple her kişide aynı s&uumlre ge&ccedilerli olmayacaktır. Petra Hair ailesi olarak sizlere vereceğimiz hizmette &oumlnceliğimiz saç ekimi sonrasında g&uumlzel bir sonu&ccedil almaktır.</li>
 </ul>
 `,
 womentTransPlantTitle:'Kadınlarda Saç Ekimi',

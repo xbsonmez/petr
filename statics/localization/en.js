@@ -39,7 +39,6 @@ export default  {
     beardKey:'Beard and Eyebrow Transplantation',
 
     aboutUsPetra: ` <p>WHO ARE WE</p>
-    <p><strong>Petra Hair</strong></p>
     <p>Petra Hair; It is an international health tourism company that aims to provide its patients with the right treatment methods and a reliable service. As Petra Hair, we bring together our guests who experience hair loss and seek health solutions with our expert staff who are experienced in hair, beard and eyebrow transplantation for more than 10000 hours.</p>
     <p>We are based on the high standards of service provided by the doctors and medical centers we work with. It diversifies accommodation options, to our patients; We offer service options in different segments, including standard, special and VIP.</p>
     <p>Our priority is to analyze the needs of our patients correctly and to provide them with the service they desire internationally in this direction. As a leading company in its field, we are expanding our service network day by day with the service quality we provide and the goal of continuous improvement.</p>
