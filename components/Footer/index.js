@@ -24,8 +24,9 @@ export default function Footer() {
                     <a href="tel:+905318561585">
                         <h1>
                             <Image src="/phone.png" width="32" height="32" objectFit="cover"  alt="Petra Hair Transplant Phone"/>
-                            +90 531 856 15 85
                         </h1>
+                            
+                        <p style={{color:'white'}}>+90 531 856 15 85</p>
                     </a>
                 </div>
                 <div style={{display:'flex', flexDirection:'row'}}> 
@@ -34,14 +35,14 @@ export default function Footer() {
                         <div>Atalar Mah. Köroğlu Cad. Emir Sk. No:2, D:2, 34862 Kartal/İstanbul </div>
                     </div>
                 </div>
-                    <div style={{display:'flex', justifyContent:'center'}}>
-                    <div style={{display:'flex', justifyContent:'center',flexDirection:'column'}}>
-                        <a href="https://www.instagram.com/petrahairtransplant">
+                    <div style={{display:'flex', justifyContent:'center',flexDirection:'column', justifyContent:'flex-start', textAlign:'center'}}>
+                    <p style={{fontSize:'14px', paddingTop:'25px', fontWeight:'700'}}>Sosyal Medyada Biz</p>
+                    <div style={{display:'flex',flexDirection:'row', justifyContent:'center'}}>
+                        <a href="https://www.instagram.com/petrahairtransplant" style={{marginRight:'5px'}}>
                         <Image src="/instagram.png" width="44" height="44" objectFit="cover"  alt="Petra Hair Transplant Instagram"/>
                         </a>
-                    </div>
-                    <div style={{display:'flex', justifyContent:'center',flexDirection:'column', marginLeft:'5px'}}>
                         <Tiktok/>
+
                     </div>
                     </div>
             </div>
