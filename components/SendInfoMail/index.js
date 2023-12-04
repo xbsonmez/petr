@@ -77,17 +77,7 @@ export default function SendInfoMail(prop) {
               </Form.Item>
             </Col>
 
-            <Col xs={24} sm={12} md={12} lg={6}>
-              <Form.Item name="phone" 
-              rules={[{ required: true,  min: 1,
-                max: 16,
-                message:prop?.t?.emptyError,}]}
-                >
-
-              <Input size="large" autoComplete="off" className="hidden-arrows" type="number"  placeholder={prop?.t?.phoneNumber} suffix={<PhoneOutlined />} 
-              onChange={(e)=> {e.target.value.trim().substring(0, 16)} } />
-              </Form.Item>
-            </Col>
+           
 
             <Col xs={24} sm={12} md={12} lg={6}>
               <Form.Item className="margin-top-10">
